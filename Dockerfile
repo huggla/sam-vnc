@@ -7,8 +7,8 @@
 # ARGs (can be passed to Build/Final) <BEGIN>
 ARG SaM_VERSION="2.0.5"
 ARG IMAGETYPE="application"
-ARG RUNDEPS="x11vnc xvfb openbox pcmanfm ttf-font-awesome"
-ARG EXECUTABLES="/usr/bin/Xvfb /usr/bin/x11vnc /usr/bin/openbox"
+ARG RUNDEPS="x11vnc xvfb openbox pcmanfm xfce4-terminal leafpad"
+ARG EXECUTABLES="/usr/bin/Xvfb /usr/bin/x11vnc /usr/bin/openbox /usr/bin/xfce4-terminal /usr/bin/pcmanfm /usr/bin/leafpad"
 # ARGs (can be passed to Build/Final) </END>
 
 # Generic template (don't edit) <BEGIN>
