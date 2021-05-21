@@ -8,7 +8,7 @@
 ARG SaM_VERSION="2.0.5"
 ARG IMAGETYPE="application"
 ARG RUNDEPS="x11vnc xvfb openbox pcmanfm"
-ARG EXECUTABLES="/usr/bin/Xvfb,/usr/bin/x11vnc,/usr/bin/openbox"
+ARG EXECUTABLES="/usr/bin/Xvfb /usr/bin/x11vnc /usr/bin/openbox"
 # ARGs (can be passed to Build/Final) </END>
 
 # Generic template (don't edit) <BEGIN>
