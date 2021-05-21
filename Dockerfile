@@ -7,7 +7,7 @@
 # ARGs (can be passed to Build/Final) <BEGIN>
 ARG SaM_VERSION="2.0.5"
 ARG IMAGETYPE="application"
-ARG RUNDEPS="x11vnc xvfb openbox pcmanfm xterm leafpad"
+ARG RUNDEPS="x11vnc xvfb openbox pcmanfm xterm leafpad ttf-freefont gnome-icon-theme"
 ARG EXECUTABLES="/usr/bin/Xvfb /usr/bin/x11vnc /usr/bin/openbox /usr/bin/xterm /usr/bin/pcmanfm /usr/bin/leafpad"
 # ARGs (can be passed to Build/Final) </END>
 
