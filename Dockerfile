@@ -7,8 +7,8 @@
 # ARGs (can be passed to Build/Final) <BEGIN>
 ARG SaM_VERSION="2.0.5"
 ARG IMAGETYPE="application"
-ARG RUNDEPS="x11vnc xvfb openbox pcmanfm supervisor"
-ARG EXECUTABLES="/usr/bin/supervisord /usr/bin/Xvfb /usr/bin/x11vnc /usr/bin/openbox"
+ARG RUNDEPS="x11vnc xvfb openbox pcmanfm ttf-font-awesome"
+ARG EXECUTABLES="/usr/bin/Xvfb /usr/bin/x11vnc /usr/bin/openbox"
 # ARGs (can be passed to Build/Final) </END>
 
 # Generic template (don't edit) <BEGIN>
@@ -32,7 +32,7 @@ COPY --from=build /finalfs /
 # =========================================================================
 # Final
 # =========================================================================
-ENV VAR_FINAL_COMMAND="supervisord -c /etc/supervisord.conf"
+
 
 # Generic template (don't edit) <BEGIN>
 USER starter
