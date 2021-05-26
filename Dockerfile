@@ -32,7 +32,7 @@ COPY --from=build /finalfs /
 # =========================================================================
 # Final
 # =========================================================================
-ENV VAR_FINAL_COMMAND='Xvfb :1 -screen 0 1600x900x24 & x11vnc -xkb -noxrecord -noxfixes -noxdamage -display :1 -nopw -wait 5 -shared -permitfiletransfer -tightfilexfer & HOME="/tmp" DISPLAY=":1" USER="root" openbox' \
+ENV VAR_FINAL_COMMAND='Xvfb :1 -screen 0 1600x900x24 & x11vnc -xkb -noxrecord -noxfixes -noxdamage -display :1 -nopw -wait 5 -shared -permitfiletransfer -tightfilexfer & HOME="$VAR_HOME_DIR" DISPLAY=":1" USER="$VAR_LINUX_USER" openbox' \
     VAR_HOME_DIR="/home/vnc" \
     VAR_LINUX_USER="vnc"
 
