@@ -22,14 +22,5 @@
     </action>
   </item>
 
-  <item label="xterm">
-    <action name="Execute">
-      <command>xterm -fa FreeMono -fs 16 -bg white -fg black</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-
 </menu>
 </openbox_menu>
